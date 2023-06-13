@@ -11,7 +11,6 @@
 		// Check if a course of study is selected
 		if (isset($_GET['course_of_study'])) {
 
-			// Establish a database connection
 			$servername = "localhost";
 			$username = "root";
 			$password = "root";
