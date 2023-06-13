@@ -1,0 +1,75 @@
+button {
+  border: none;
+  background-color: transparent;
+  color: inherit;
+  outline: none;
+  font-size: 27px;
+  color: white;
+  font-weight: 600;
+}
+
+a {
+  color: blue;
+  text-decoration: none; /* no underline */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header > button {
+  background-color: #00aadc;
+  border-radius: 10px;
+}
+
+#date {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+}
+
+.button_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  width: 80%;
+  height: 100px;
+  background-color: #00aadc;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: #00aadc;
+  color: white;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+td,
+th {
+  padding: 28px;
+}
+
+.container_courseofstudy {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 50px;
+}
